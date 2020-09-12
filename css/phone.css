@@ -1,0 +1,39 @@
+/* navigation bar  */
+#navbar{
+    flex-direction:column;
+}
+#navbar ul li a{
+    font-size:0.9rem;
+    padding-left: 5px;
+}
+/* for home */
+    #home{
+     height: 439px;
+     padding:46px 10px;
+    
+}
+#home::before{
+    height:200px;
+
+}
+#home p{
+    font-size:13px;
+}
+#home h1{
+    font-size: 38px;
+}
+/* for service section */
+
+.services{
+    flex-direction: column;
+
+}
+.services img{
+    width:12rem;
+}
+
+/* for client-section  */
+#client-section{
+    overflow: hidden;
+
+}
